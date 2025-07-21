@@ -7,3 +7,5 @@ expr = ((p + q) * (p - q)) / q
 
 dot = draw_dot(expr)
 dot.render('graph')  # generates graph.png
+
+print("Everything is set up! Check the graph.png file for the visualization.")
