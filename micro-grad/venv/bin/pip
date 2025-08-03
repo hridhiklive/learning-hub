@@ -1,6 +1,4 @@
-#!/bin/sh
-'''exec' "/mnt/c/Users/hkbri/OneDrive/Documents/machine learning/learning-hub/micro-grad/venv/bin/python3" "$0" "$@"
-' '''
+#!/home/hk/Documents/learning_hub/learning-hub/learning-hub/micro-grad/venv/bin/python3
 # -*- coding: utf-8 -*-
 import re
 import sys

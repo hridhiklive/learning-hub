@@ -1,8 +1,8 @@
 
 class Value:
-    def __init__(self, data,_children=(),_op='',label=''):
+    def __init__(self, data,_children=(),_op='',label='',grad=0.0):
         self.data = data
-        self.grad = 0.0
+        self.grad = grad
         self._prev = set(_children)
         self._op = _op
         self.label = label

@@ -33,7 +33,7 @@ end
 # Unset irrelevant variables.
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV '/mnt/c/Users/hkbri/OneDrive/Documents/machine learning/learning-hub/micro-grad/venv'
+set -gx VIRTUAL_ENV /home/hk/Documents/learning_hub/learning-hub/learning-hub/micro-grad/venv
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/"bin $PATH

@@ -9,7 +9,7 @@ alias deactivate 'test $?_OLD_VIRTUAL_PATH != 0 && setenv PATH "$_OLD_VIRTUAL_PA
 # Unset irrelevant variables.
 deactivate nondestructive
 
-setenv VIRTUAL_ENV '/mnt/c/Users/hkbri/OneDrive/Documents/machine learning/learning-hub/micro-grad/venv'
+setenv VIRTUAL_ENV /home/hk/Documents/learning_hub/learning-hub/learning-hub/micro-grad/venv
 
 set _OLD_VIRTUAL_PATH="$PATH"
 setenv PATH "$VIRTUAL_ENV/"bin":$PATH"
